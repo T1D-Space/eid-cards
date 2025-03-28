@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RR2LD088NW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-RR2LD088NW');
+    window.addEventListener("load", function () {
+  gtag('event', 'view_card', {
+    event_category: 'View',
+    event_label: 'design2'
+  });
+});
+
+  </script>
+  <meta charset="utf-8"/>
+  <title>تصميم 2</title>
+  <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+  <div class="logo-bar">
+    <img src="images/eid1446-001.png" alt="كل عام وأنتم بخير">
+  </div>
+
+  <h1>اكتب اسمك واختر الخط</h1>
+
+  <input id="nameInput" placeholder="اكتب اسمك هنا" type="text"/><br/><br/>
+
+  <label>اختر الخط:</label>
+  <select id="fontSelect">
+    <option value="Amiri">Amiri</option>
+    <option value="Cairo">Cairo</option>
+    <option selected value="Tajawal">Tajawal</option>
+  </select>
+
+  <br/><br/>
+
+  <button onclick="generateImage(2);">عرض البطاقة</button>
+  <a class="button" href="index.html">↩ العودة للرئيسية</a>
+
+  <br/><br/>
+
+  <canvas id="canvas" style="display:none; width:100%; height:auto;"></canvas>
+
+  <br/>
+  <a class="button" download="بطاقة_العيد.png" id="downloadBtn" style="display:none;">تحميل البطاقة</a>
+
+<script defer src="js/main.js"></script>
+
+  <div style="margin-top: 20px;">
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=eid1-cards.design2" />
+  </div>
+
+  <footer>
+    © 2025 جميع الحقوق محفوظة لأبي تميم
+  </footer>
+</body>
+</html>

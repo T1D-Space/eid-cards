@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Cairo&family=Tajawal&display=swap');
+
+body {
+  font-family: 'Tajawal', sans-serif;
+  text-align: center;
+  direction: rtl;
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 0;
+}
+
+h1 {
+  color: #006699;
+  font-family: 'Tajawal', sans-serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+label, select, input, button, a {
+  font-family: 'Tajawal', sans-serif;
+  font-size: 16px;
+  margin: 8px;
+}
+
+input, select {
+  padding: 6px;
+  width: 80%;
+  max-width: 300px;
+}
+
+canvas {
+  display: none; /* مخفي مبدئيًا */
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+
+.button, button, a.button {
+  background-color: #006699;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  text-decoration: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+a.button img.thumb {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  padding: 20px;
+}
+
+.footer-buttons {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.footer-buttons a.button {
+  font-size: 13px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
