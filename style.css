@@ -81,3 +81,11 @@ div {
   align-items: center;
   gap: 4px;
 }
+
+    .logo-bar {
+      margin: 20px auto;
+    }
+    .logo-bar img {
+      width: 100%;
+      margin: 0 10px;
+    }
