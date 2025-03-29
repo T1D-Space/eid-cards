@@ -1,61 +1,73 @@
-
 <!DOCTYPE html>
 <html lang="ar">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RR2LD088NW"></script>
+   <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YB8D7PR8W7"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-RR2LD088NW');
-    window.addEventListener("load", function () {
-  gtag('event', 'view_card', {
-    event_category: 'View',
-    event_label: 'design6'
-  });
+    gtag('config', 'G-YB8D7PR8W7');
+gtag('event', 'visit_stats', {
+  'event_category': 'navigation'
 });
 
   </script>
-  <meta charset="utf-8"/>
-  <title>تصميم معايدة الديوانية 2</title>
-  <link href="style.css" rel="stylesheet"/>
+  <meta charset="UTF-8">
+  <title>الأكثر تفاعلاً 📈</title>
+  <style>
+    body {
+      font-family: 'Tajawal', sans-serif;
+      background-color: #f9f9f9;
+      color: #444;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 40px 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      color: #006699;
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 16px;
+      margin-top: 10px;
+    }
+
+    a.button {
+      margin-top: 20px;
+      display: inline-block;
+      background-color: #006699;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    a.button:hover {
+      background-color: #005580;
+    }
+  </style>
 </head>
 <body>
-  <div class="logo-bar">
-    <img src="images/eid1446-002.png" alt="كل عام وأنتم بخير">
+  <div class="container">
+    <h1>🚧 هذه الصفحة تحت التطوير</h1>
+    <p>نعمل على تجهيز الإحصائيات لتكون أكثر فائدة وجمالًا ✨</p>
+    <a href="index.html" class="button">↩ العودة للصفحة الرئيسية</a>
   </div>
-
-  <h1>اكتب اسمك واختر الخط</h1>
-
-  <input id="nameInput" placeholder="اكتب اسمك هنا" type="text"/><br/><br/>
-
-  <label>اختر الخط:</label>
-  <select id="fontSelect">
-    <option value="Amiri">Amiri</option>
-    <option value="Cairo">Cairo</option>
-    <option selected value="Tajawal">Tajawal</option>
-  </select>
-
-  <br/><br/>
-
-  <button onclick="generateImage(6);">عرض البطاقة</button>
-  <a class="button" href="index2.html">↩ العودة للرئيسية</a>
-  <br/><br/>
-
-  <canvas id="canvas" style="display:none; width:100%; height:auto;"></canvas>
-
-  <br/>
-  <a class="button" download="بطاقة_العيد.png" id="downloadBtn" style="display:none;">تحميل البطاقة</a>
-
-<script defer src="js/main.js"></script>
-
-  <div style="margin-top: 20px;">
-    <img src="https://visitor-badge.laobi.icu/badge?page_id=eid1-cards.design6" />
-  </div>
-
-  <footer>
-    © 2025 جميع الحقوق محفوظة لأبي تميم
-  </footer>
+<footer>
+  <p>© 2025 جمعية السكري النوع الأول - فضاء السكري النوع الأول</p>
+  <p>صنع بحب <span class="heart">♥</span> بأيادي متعايشين مع السكري النوع الأول</p>
+</footer>
 </body>
 </html>
