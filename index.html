@@ -29,13 +29,22 @@
       margin-bottom: 30px;
     }
 
-    .grid-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 24px;
-      justify-items: center;
-      padding: 20px;
-    }
+      /* شبكة الصور الرئيسية */
+.grid-container {
+  display: grid;
+  gap: 24px;
+  justify-items: center;  /* توسيط العناصر على المحور الأفقي */
+  padding: 20px;
+  /* الوضع الافتراضي: بطاقتان بكل صف */
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* عندما يصبح العرض كبير (مثلاً 900px فأكثر)، اعرض 4 بطاقات */
+@media (min-width: 900px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
     .grid-item {
       text-align: center;
     }
@@ -54,6 +63,7 @@
       font-size: 14px;
       color: #777;
     }
+
   </style>
 </head>
 <body>
