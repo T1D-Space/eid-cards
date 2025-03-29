@@ -108,3 +108,20 @@ footer p {
 footer .heart {
   color: red; /* يلوّن القلب بالأحمر */
 }
+
+/* شبكة الصور الرئيسية */
+.grid-container {
+  display: grid;
+  gap: 24px;
+  justify-items: center;  /* توسيط العناصر على المحور الأفقي */
+  padding: 20px;
+  /* الوضع الافتراضي: بطاقتان بكل صف */
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* عندما يصبح العرض كبير (مثلاً 900px فأكثر)، اعرض 4 بطاقات */
+@media (min-width: 900px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
