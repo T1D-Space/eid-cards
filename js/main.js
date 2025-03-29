@@ -12,9 +12,9 @@ function generateImage(designNumber) {
 
     const designSettings = {
       1: { fontSize: 125, fontColor: '#005cb9', x: img.width / 2, y: 4200 },
-      2: { fontSize: 125, fontColor: '#005cb9', x: img.width / 2, y: 4200 },
-      3: { fontSize: 125, fontColor: '#005cb9', x: img.width / 2, y: 4200 },
-      4: { fontSize: 125, fontColor: '#005cb9', x: img.width / 2, y: 4200 },
+      2: { fontSize: 125, fontColor: '#00a0e0', x: img.width / 2, y: 4488 },
+      3: { fontSize: 125, fontColor: '#d53321', x: img.width / 2, y: 3000 },
+      4: { fontSize: 125, fontColor: '#19478a', x: img.width / 2, y: 4330 },
       5: { fontSize: 125, fontColor: '#005cb9', x: img.width / 2, y: 4200 },
       6: { fontSize: 125, fontColor: '#005cb9', x: img.width / 2, y: 4200 }
     };
