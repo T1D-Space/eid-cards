@@ -91,3 +91,20 @@ div {
       padding: 0px;
       margin: 0 0px;
     }
+
+footer {
+  background-color: #f9f9f9; /* لون خلفية خفيف */
+  text-align: center;        /* توسيط النص */
+  padding: 16px;             /* مسافة داخلية */
+  margin-top: 20px;          /* مسافة علوية تفصل عن بقية الصفحة */
+}
+
+footer p {
+  margin: 4px 0;      /* مسافة بسيطة بين الأسطر */
+  color: #333;        /* لون النص */
+  font-size: 14px;    /* حجم الخط */
+}
+
+footer .heart {
+  color: red; /* يلوّن القلب بالأحمر */
+}
